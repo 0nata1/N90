@@ -32,13 +32,11 @@
       <a class="font-extrabold tracking-tight text-white text-xl" href="#">N90</a>
       <nav class="hidden sm:flex gap-6 text-sm">
         <a href="#ofertas" class="hover:opacity-80">Ofertas</a>
-        <a href="#membresia" class="hover:opacity-80">Membresía</a>
-        <a href="#vip" class="hover:opacity-80">Mentoría VIP</a>
-        <a href="#gratis" class="hover:opacity-80">Gratis</a>
+        <a href="#pagos" class="hover:opacity-80">Pagos</a>
         <a href="#testimonios" class="hover:opacity-80">Testimonios</a>
         <a href="#faq" class="hover:opacity-80">FAQ</a>
       </nav>
-      <a href="#gratis" class="btn btn-primary text-sm">Descarga gratis</a>
+      <a href="https://wa.me/595994654445" target="_blank" class="btn btn-primary text-sm">WhatsApp</a>
     </div>
   </header>
 
@@ -57,7 +55,7 @@
           <a href="#ofertas" class="btn btn-primary shadow-soft">Ver planes</a>
           <a href="https://wa.me/595994654445" target="_blank" rel="noopener" class="btn btn-outline">Hablar por WhatsApp</a>
         </div>
-        <p class="mt-3 text-xs text-white/50">Pagá desde cualquier país (PayPal/Stripe) o en Gs. por WhatsApp.</p>
+        <p class="mt-3 text-xs text-white/50">Pagá con Meru Crypto o Western Union. Enviá comprobante por WhatsApp.</p>
       </div>
       <div class="relative">
         <div class="glass rounded-3xl p-4 md:p-6 shadow-soft">
@@ -87,14 +85,12 @@
             <li>1 video técnico de básicos</li>
             <li>Sin seguimiento personal</li>
           </ul>
-          <div class="mt-5 flex gap-3">
-            <a href="#comprar-20" class="btn btn-primary w-full">Comprar ahora</a>
-            <a href="#detalle-20" class="btn btn-outline w-full">Ver detalles</a>
-          </div>
+          <a href="https://wa.me/595994654445?text=Hola%20Natanael%2C%20quiero%20el%20Plan%20N90%20Expr%C3%A9s%20(20%20USD).%20Pago%20con%3A%20Meru%20Crypto%20o%20Western%20Union.%20Mi%20email%20es%3A%20____"
+             target="_blank" class="btn btn-primary mt-5 w-full">Quiero el Plan Exprés</a>
         </article>
 
         <!-- 60 USD -->
-        <article id="membresia" class="glass rounded-3xl p-6 border border-[var(--brand)]">
+        <article class="glass rounded-3xl p-6 border border-[var(--brand)]">
           <div class="text-sm uppercase tracking-widest text-[var(--brand)]">Recomendado</div>
           <h3 class="text-2xl font-bold mt-1">Membresía N90 Club</h3>
           <div class="mt-3 text-4xl font-extrabold">60 USD<span class="text-base font-semibold text-white/60"> / mes</span></div>
@@ -106,10 +102,8 @@
             <li>2 clases grupales online al mes</li>
             <li>Retos y bonos exclusivos</li>
           </ul>
-          <div class="mt-5 flex gap-3">
-            <a href="#comprar-60" class="btn btn-primary w-full">Unirme ahora</a>
-            <a href="#detalle-60" class="btn btn-outline w-full">Ver detalles</a>
-          </div>
+          <a href="https://wa.me/595994654445?text=Hola%20Natanael%2C%20quiero%20unirme%20a%20la%20Membres%C3%ADa%20N90%20Club%20(60%20USD%2Fmes).%20Objetivo%3A%20___.%20Pago%20con%3A%20Meru%20Crypto%20o%20Western%20Union."
+             target="_blank" class="btn btn-primary mt-5 w-full">Unirme a la Membresía</a>
         </article>
 
         <!-- 200 USD -->
@@ -124,18 +118,15 @@
             <li>Revisión y ajustes semanales</li>
             <li>1 videollamada privada por semana</li>
           </ul>
-          <div class="mt-5 flex gap-3">
-            <a href="#aplicar-200" class="btn btn-primary w-full">Aplicar a cupo</a>
-            <a href="#detalle-200" class="btn btn-outline w-full">Ver detalles</a>
-          </div>
+          <a href="https://wa.me/595994654445?text=Hola%20Natanael%2C%20quiero%20aplicar%20a%20la%20Mentor%C3%ADa%20VIP%20(200%20USD%2Fmes).%20Mi%20pa%C3%ADs%20y%20horario%3A%20___.%20Objetivo%3A%20___.%20Pago%3A%20Meru%20o%20WU."
+             target="_blank" class="btn btn-primary mt-5 w-full">Aplicar a cupo VIP</a>
         </article>
       </div>
-
-      <p class="text-xs text-white/50 mt-4">¿Pagás en Guaraníes? Escribime al WhatsApp y te paso el precio local y medios de pago.</p>
+      <p class="text-xs text-white/50 mt-4">¿Pagás en Guaraníes? Escribime por WhatsApp y te paso el precio local y medios de pago.</p>
     </div>
   </section>
 
-  <!-- FOTO EXTRA (si querés mantenerla, usá tu otra imagen) -->
+  <!-- FOTO EXTRA (opcional) -->
   <section class="py-14 border-t border-white/10">
     <div class="max-w-4xl mx-auto px-4">
       <div class="glass rounded-3xl p-4 md:p-6 shadow-soft">
@@ -144,28 +135,23 @@
     </div>
   </section>
 
-  <!-- RECURSO GRATIS -->
-  <section id="gratis" class="py-14 border-t border-white/10">
-    <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
-      <div class="glass rounded-3xl p-6">
-        <h3 class="text-2xl font-extrabold">🎁 Ebook gratis – 5 hábitos para perder grasa sin pasar hambre</h3>
-        <p class="mt-3 text-white/80">Dejame tu email o WhatsApp y te envío mi guía con hábitos simples que podés aplicar desde hoy.</p>
-        <form action="https://docs.google.com/forms/d/e/1FAIpQLSf-TU_LINK_DE_TU_FORM/viewform" class="mt-5 space-y-3" target="_blank">
-          <input type="text" placeholder="Tu nombre" class="w-full px-4 py-3 rounded-2xl bg-white/10 border border-white/15 placeholder-white/60 focus:outline-none">
-          <input type="email" placeholder="Tu email" class="w-full px-4 py-3 rounded-2xl bg-white/10 border border-white/15 placeholder-white/60 focus:outline-none">
-          <button class="btn btn-primary w-full">Quiero mi ebook gratis</button>
-          <p class="text-xs text-white/50">Al enviar tus datos aceptás recibir tips y novedades de N90. Podés darte de baja cuando quieras.</p>
-        </form>
+  <!-- MÉTODOS DE PAGO -->
+  <section id="pagos" class="py-16 border-t border-white/10">
+    <div class="max-w-4xl mx-auto text-center px-4">
+      <h2 class="text-3xl font-extrabold">Métodos de pago</h2>
+      <p class="text-white/70 mt-2">Elegí la opción que te quede mejor. Una vez realizado el pago, enviá el comprobante por WhatsApp y activamos tu plan ✅</p>
+      <div class="mt-8 grid md:grid-cols-2 gap-6">
+        <div class="glass rounded-3xl p-6">
+          <h3 class="font-bold text-xl">🪙 Meru Crypto</h3>
+          <p class="text-white/80 mt-2 text-sm">Te paso la wallet por WhatsApp. Acepto stablecoins.</p>
+        </div>
+        <div class="glass rounded-3xl p-6">
+          <h3 class="font-bold text-xl">💳 Western Union</h3>
+          <p class="text-white/80 mt-2 text-sm">Te envío los datos del receptor y el monto exacto según tu país.</p>
+        </div>
       </div>
-      <div class="glass rounded-3xl p-6">
-        <h4 class="font-semibold">¿Qué vas a aprender?</h4>
-        <ul class="mt-3 text-white/80 text-sm space-y-2 bullet">
-          <li>Cómo crear déficit calórico sin pasar hambre</li>
-          <li>Hábitos que aceleran la definición</li>
-          <li>Errores comunes que frenan tus resultados</li>
-          <li>Mini rutina de abdomen (10 minutos)</li>
-        </ul>
-      </div>
+      <a href="https://wa.me/595994654445?text=Hola%20Natanael%2C%20ya%20realic%C3%A9%20el%20pago%20y%20adjunto%20comprobante."
+         class="btn btn-primary mt-8 inline-flex">Enviar comprobante por WhatsApp</a>
     </div>
   </section>
 
@@ -187,7 +173,7 @@
           <div class="mt-3 text-white font-semibold">— Paula, 36</div>
         </blockquote>
       </div>
-      <p class="text-xs text-white/50 mt-3">*Reemplazá estos textos por testimonios reales o capturas de tu Instagram.</p>
+      <p class="text-xs text-white/50 mt-3">*Reemplazá por testimonios reales o capturas de tu Instagram.</p>
     </div>
   </section>
 
@@ -197,16 +183,16 @@
       <h3 class="text-3xl font-extrabold">Preguntas frecuentes</h3>
       <div class="mt-6 grid md:grid-cols-2 gap-6 text-white/80">
         <div class="glass p-5 rounded-2xl">
-          <h4 class="font-semibold">¿Cómo pago desde otro país?</h4>
-          <p class="text-sm mt-2">Acepto PayPal/Stripe para pagos internacionales. También opción en Gs. por WhatsApp.</p>
-        </div>
-        <div class="glass p-5 rounded-2xl">
           <h4 class="font-semibold">¿Puedo entrenar en casa?</h4>
           <p class="text-sm mt-2">Sí. Todos los planes incluyen versión casa y versión gym, con y sin equipamiento.</p>
         </div>
         <div class="glass p-5 rounded-2xl">
           <h4 class="font-semibold">¿La mentoría tiene cupos?</h4>
           <p class="text-sm mt-2">Sí, manejo cupos limitados para garantizar seguimiento real.</p>
+        </div>
+        <div class="glass p-5 rounded-2xl">
+          <h4 class="font-semibold">¿Métodos de pago?</h4>
+          <p class="text-sm mt-2">Meru Crypto o Western Union. Tras pagar, enviá comprobante por WhatsApp y activamos tu plan.</p>
         </div>
         <div class="glass p-5 rounded-2xl">
           <h4 class="font-semibold">¿Hay garantía?</h4>
@@ -233,13 +219,6 @@
     <p>© <span id="y"></span> N90 by Natanael — Todos los derechos reservados.</p>
     <p class="mt-2">Instagram: <a class="underline hover:opacity-80" href="https://instagram.com/natanaelamarilla_" target="_blank" rel="noopener">@natanaelamarilla_</a></p>
   </footer>
-
-  <!-- ENLACES DE COMPRA (reemplazá # por tus links reales) -->
-  <div class="hidden">
-    <a id="comprar-20" href="#">Pagar 20 USD</a>
-    <a id="comprar-60" href="#">Pagar 60 USD/mes</a>
-    <a id="aplicar-200" href="https://wa.me/595994654445?text=Hola%20Natanael,%20quiero%20aplicar%20a%20la%20Mentor%C3%ADa%20VIP" target="_blank">Aplicar VIP</a>
-  </div>
 
   <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
 </body>
