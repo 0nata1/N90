@@ -61,7 +61,8 @@
       </div>
       <div class="relative">
         <div class="glass rounded-3xl p-4 md:p-6 shadow-soft">
-          <img src="77f35281-e486-4871-8027-8f06dde21f86.jpeg" alt="Natanael hero" class="rounded-2xl w-full h-[340px] object-cover"/>
+          <!-- Foto portada -->
+          <img src="hero-n90.jpg" alt="Natanael hero" class="rounded-2xl w-full h-[340px] object-cover"/>
         </div>
       </div>
     </div>
@@ -134,7 +135,7 @@
     </div>
   </section>
 
-  <!-- FOTO EXTRA ABAJO -->
+  <!-- FOTO EXTRA (si querés mantenerla, usá tu otra imagen) -->
   <section class="py-14 border-t border-white/10">
     <div class="max-w-4xl mx-auto px-4">
       <div class="glass rounded-3xl p-4 md:p-6 shadow-soft">
@@ -238,9 +239,6 @@
     <a id="comprar-20" href="#">Pagar 20 USD</a>
     <a id="comprar-60" href="#">Pagar 60 USD/mes</a>
     <a id="aplicar-200" href="https://wa.me/595994654445?text=Hola%20Natanael,%20quiero%20aplicar%20a%20la%20Mentor%C3%ADa%20VIP" target="_blank">Aplicar VIP</a>
-    <a id="detalle-20" href="#ofertas">Detalles 20</a>
-    <a id="detalle-60" href="#membresia">Detalles 60</a>
-    <a id="detalle-200" href="#vip">Detalles 200</a>
   </div>
 
   <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
