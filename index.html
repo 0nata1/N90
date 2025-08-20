@@ -1,126 +1,300 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="es" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>N90 - Definí tu cuerpo en 90 días</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Natanael | N90 – Plan Exprés, Membresía y Mentoría VIP</title>
+  <meta name="description" content="Plan Exprés (19 USD), Membresía N90 Club (59 USD/mes) y Mentoría VIP 1:1 (199 USD/mes). Disponible para todo el mundo.">
+  <meta property="og:title" content="N90 – Transforma tu físico con Natanael" />
+  <meta property="og:description" content="Entrena con mi sistema N90: Plan Exprés, Membresía y Mentoría VIP." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://0nata1.github.io/N90/" />
+  <meta name="theme-color" content="#000000" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{--brand:#00E5A8}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif}
+    .glass{background:rgba(255,255,255,.06);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.08)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;border-radius:9999px;padding:.9rem 1.25rem;font-weight:700;transition:transform .15s ease,opacity .15s ease}
+    .btn:hover{transform:translateY(-1px)}
+    .btn-primary{background:var(--brand);color:#0a0a0a}
+    .btn-outline{border:1.5px solid #fff;color:#fff}
+    .shadow-soft{box-shadow:0 10px 30px rgba(0,0,0,.35)}
+  </style>
 </head>
-<body class="bg-black text-white">
+<body class="bg-black text-white selection:bg-white/20">
 
-  <!-- Navbar -->
-  <nav class="flex justify-between items-center p-6">
-    <h1 class="text-2xl font-bold">N90</h1>
-    <ul class="flex space-x-8 text-lg">
-      <li><a href="#ofertas" class="hover:text-green-400">Ofertas</a></li>
-      <li><a href="#pagos" class="hover:text-green-400">Pagos</a></li>
-      <li><a href="#quien-soy" class="hover:text-green-400">Quién soy</a></li>
-      <li><a href="#testimonios" class="hover:text-green-400">Testimonios</a></li>
-      <li><a href="#faq" class="hover:text-green-400">FAQ</a></li>
-    </ul>
-    <a href="https://wa.me/595994654445" target="_blank" class="bg-green-500 px-5 py-2 rounded-full font-semibold">WhatsApp</a>
-  </nav>
-
-  <!-- Hero Section -->
-  <section class="flex flex-col md:flex-row justify-between items-center px-8 md:px-20 py-12">
-    <div class="max-w-xl">
-      <p class="uppercase text-sm text-gray-400 mb-2">By Natanael - Entrenador</p>
-      <h2 class="text-4xl font-extrabold mb-4">Definí tu cuerpo en <span class="text-green-400">90 días</span> con el sistema N90</h2>
-      <p class="text-gray-300 mb-6">Programas accesibles para todo el mundo 🌍. Empezá hoy con el Plan Exprés, sumate a la Membresía N90 Club o trabajemos 1:1 en la Mentoría VIP.</p>
-      <div class="flex space-x-4">
-        <a href="#ofertas" class="bg-green-500 px-6 py-3 rounded-lg font-semibold">Ver planes</a>
-        <a href="https://wa.me/595994654445" target="_blank" class="border border-gray-400 px-6 py-3 rounded-lg font-semibold">Hablar por WhatsApp</a>
-      </div>
+  <!-- NAV -->
+  <header class="sticky top-0 z-40 bg-black/70 backdrop-blur border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a class="font-extrabold tracking-tight text-white text-xl" href="#">N90</a>
+      <nav class="hidden sm:flex gap-6 text-sm">
+        <a href="#ofertas" class="hover:opacity-80">Ofertas</a>
+        <a href="#pagos" class="hover:opacity-80">Pagos</a>
+        <a href="#quien-soy" class="hover:opacity-80">Quién soy</a>
+        <a href="#testimonios" class="hover:opacity-80">Testimonios</a>
+        <a href="#faq" class="hover:opacity-80">FAQ</a>
+      </nav>
+      <a href="https://wa.me/595994654445" target="_blank" class="btn btn-primary text-sm">WhatsApp</a>
     </div>
-    <div class="mt-10 md:mt-0">
-      <img src="59297048-BD0E-4864-A050-313A473F0150.jpeg" alt="Entrenador Natanael" class="rounded-2xl shadow-lg w-[400px]">
-    </div>
-  </section>
+  </header>
 
-  <!-- Planes -->
-  <section id="ofertas" class="px-8 md:px-20 py-12">
-    <h3 class="text-3xl font-bold mb-6">Elegí tu camino</h3>
-    <p class="text-gray-400 mb-10">Tres niveles para objetivos distintos + un recurso gratis para empezar hoy.</p>
-
-    <div class="grid md:grid-cols-4 gap-6">
-      
-      <!-- Gratis -->
-      <div class="bg-gray-900 p-6 rounded-xl flex flex-col justify-between">
-        <div>
-          <h4 class="uppercase text-gray-400 mb-2">Comenzá hoy</h4>
-          <h2 class="text-2xl font-bold mb-4">Recurso Gratis N90</h2>
-          <p class="text-green-400 text-xl font-bold mb-4">0 USD</p>
-          <ul class="text-gray-300 space-y-2">
-            <li>✅ Rutina full body (casa o gym)</li>
-            <li>✅ 5 entrenamientos exprés</li>
-            <li>✅ Hábitos simples de disciplina</li>
-            <li>✅ 3 recetas rápidas y nutritivas</li>
-            <li>✅ Mini lista de compras</li>
-          </ul>
+  <!-- HERO -->
+  <section class="relative overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 pt-14 pb-10 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <p class="uppercase tracking-widest text-white/60 text-xs">BY NATANAEL • ENTRENADOR</p>
+        <h1 class="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">
+          Definí tu cuerpo en <span style="color:var(--brand)">90 días</span> con el sistema <span class="whitespace-nowrap">N90</span>
+        </h1>
+        <p class="mt-4 text-white/80">
+          Programas accesibles para todo el mundo 🌍. Empezá hoy con el Plan Exprés, sumate a la Membresía N90 Club o trabajemos 1:1 en la Mentoría VIP.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#ofertas" class="btn btn-primary shadow-soft">Ver planes</a>
+          <a href="https://wa.me/595994654445" target="_blank" rel="noopener" class="btn btn-outline">Hablar por WhatsApp</a>
         </div>
-        <a href="#" class="mt-6 bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg text-center">Descargar gratis</a>
+        <p class="mt-3 text-xs text-white/60">Pagá con <b>Transferencia bancaria</b>, <b>Western Union</b> o <b>Cripto</b>. Enviá comprobante por WhatsApp.</p>
       </div>
-
-      <!-- Plan Exprés -->
-      <div class="bg-gray-900 p-6 rounded-xl flex flex-col justify-between">
-        <div>
-          <h4 class="uppercase text-gray-400 mb-2">Entrada</h4>
-          <h2 class="text-2xl font-bold mb-4">Plan N90 Exprés</h2>
-          <p class="text-green-400 text-xl font-bold mb-4">19 USD</p>
-          <ul class="text-gray-300 space-y-2">
-            <li>✅ Entrenamiento 4 semanas (gym y casa)</li>
-            <li>✅ Plan nutricional básico</li>
-            <li>✅ Mini lista de compras organizada</li>
-            <li>✅ Recetario inicial (5 recetas fáciles)</li>
-          </ul>
+      <div class="relative">
+        <div class="glass rounded-3xl p-4 md:p-6 shadow-soft">
+          <img src="hero-n90.jpg" alt="Natanael hero" class="rounded-2xl w-full h-[340px] object-cover"/>
         </div>
-        <a href="#" class="mt-6 bg-green-500 px-4 py-2 rounded-lg text-center">Quiero el Plan Exprés</a>
-      </div>
-
-      <!-- Membresía N90 -->
-      <div class="bg-gray-900 p-6 rounded-xl border-2 border-green-400 flex flex-col justify-between">
-        <div>
-          <h4 class="uppercase text-green-400 mb-2">Recomendado</h4>
-          <h2 class="text-2xl font-bold mb-4">Membresía N90 Club</h2>
-          <p class="text-green-400 text-xl font-bold mb-4">59 USD / mes</p>
-          <ul class="text-gray-300 space-y-2">
-            <li>✅ Nuevos planes cada mes</li>
-            <li>✅ Plan nutricional adaptado</li>
-            <li>✅ Recetario mensual (10-15 recetas)</li>
-            <li>✅ Lista de compras práctica</li>
-            <li>✅ Recomendaciones básicas de suplementación</li>
-            <li>✅ Seguimiento general por WhatsApp (24 h)</li>
-          </ul>
-        </div>
-        <a href="#" class="mt-6 bg-green-500 px-4 py-2 rounded-lg text-center">Unirme a la Membresía</a>
-      </div>
-
-      <!-- Mentoría VIP -->
-      <div class="bg-gray-900 p-6 rounded-xl flex flex-col justify-between">
-        <div>
-          <h4 class="uppercase text-gray-400 mb-2">Premium</h4>
-          <h2 class="text-2xl font-bold mb-4">Mentoría VIP 1:1</h2>
-          <p class="text-green-400 text-xl font-bold mb-4">199 USD / mes</p>
-          <ul class="text-gray-300 space-y-2">
-            <li>✅ Entrenamiento 100% personalizado</li>
-            <li>✅ Plan nutricional adaptado</li>
-            <li>✅ Plan de suplementación detallado</li>
-            <li>✅ Recetario premium + lista semanal</li>
-            <li>✅ Seguimiento privado y ajustes semanales</li>
-            <li>✅ 1 videollamada privada por semana</li>
-            <li>🔥 Bonus local: entrenamiento presencial (si sos de mi ciudad)</li>
-          </ul>
-          <p class="text-sm text-gray-400 mt-4">IMPORTANTE: Cupos limitados. Antes de aceptar, realizo una videollamada de filtro (Zoom o WhatsApp) para evaluar compromiso y objetivos.</p>
-        </div>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdke3_1zaZCj2CTHHajui1TLe9KclIjJD1HAMDawK3bN3NVAQ/viewform" target="_blank" class="mt-6 bg-green-500 px-4 py-2 rounded-lg text-center">Aplicar a cupo VIP</a>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="text-center py-6 border-t border-gray-800 text-gray-400 text-sm">
-    © 2025 N90 - Todos los derechos reservados
+  <!-- OFERTAS -->
+  <section id="ofertas" class="py-12 border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-extrabold">Elegí tu camino</h2>
+      <p class="text-white/70 mt-2">Tres niveles para objetivos distintos + un recurso gratis para empezar hoy.</p>
+
+      <div class="mt-8 grid md:grid-cols-4 gap-6">
+
+        <!-- RECURSO GRATIS -->
+        <article class="glass rounded-3xl p-6 flex flex-col">
+          <div class="text-sm uppercase tracking-widest text-white/60">Comenzá hoy</div>
+          <h3 class="text-2xl font-bold mt-1">Recurso Gratis N90</h3>
+          <div class="mt-3 text-4xl font-extrabold">0 USD</div>
+          <ul class="mt-4 space-y-2 text-white/80 text-sm flex-1">
+            <li>Rutina full body (casa o gym)</li>
+            <li>5 entrenamientos exprés</li>
+            <li>Hábitos simples de disciplina</li>
+            <li>3 recetas rápidas y nutritivas</li>
+            <li>Mini lista de compras</li>
+          </ul>
+          <a href="https://wa.me/595994654445?text=Hola%20Natanael%2C%20quiero%20mi%20Recurso%20Gratis%20N90.%20Mi%20email%3A%20____"
+             target="_blank" class="btn btn-outline mt-5 w-full">Descargar gratis</a>
+        </article>
+
+        <!-- PLAN EXPRÉS 19 -->
+        <article class="glass rounded-3xl p-6 flex flex-col">
+          <div class="text-sm uppercase tracking-widest text-white/60">Entrada</div>
+          <h3 class="text-2xl font-bold mt-1">Plan N90 Exprés</h3>
+          <div class="mt-3 text-4xl font-extrabold">19 USD</div>
+          <ul class="mt-4 space-y-2 text-white/80 text-sm flex-1">
+            <li>Entrenamiento 4 semanas (gym y casa)</li>
+            <li>Plan nutricional básico (definición y pérdida de grasa)</li>
+            <li>Mini lista de compras organizada</li>
+            <li>Recetario inicial (5 recetas fáciles)</li>
+          </ul>
+          <a href="https://wa.me/595994654445?text=Hola%20Natanael%2C%20quiero%20el%20Plan%20N90%20Expr%C3%A9s%20(19%20USD).%20Pago%3A%20Transferencia%2FWestern%20Union%2FCripto.%20Email%3A%20____"
+             target="_blank" class="btn btn-primary mt-5 w-full">Quiero el Plan Exprés</a>
+        </article>
+
+        <!-- MEMBRESÍA 59 -->
+        <article class="glass rounded-3xl p-6 border border-[var(--brand)]">
+          <div class="text-sm uppercase tracking-widest text-[var(--brand)]">Recomendado</div>
+          <h3 class="text-2xl font-bold mt-1">Membresía N90 Club</h3>
+          <div class="mt-3 text-4xl font-extrabold">59 USD<span class="text-base font-semibold text-white/60"> / mes</span></div>
+          <ul class="mt-4 space-y-2 text-white/80 text-sm">
+            <li>Nuevos planes de entrenamiento cada mes</li>
+            <li>Plan nutricional adaptado mensualmente</li>
+            <li>Recetario mensual (10–15 recetas)</li>
+            <li>Lista de compras práctica</li>
+            <li>Recomendaciones básicas de suplementación</li>
+            <li>Seguimiento general por WhatsApp (respuesta dentro de 24 h)</li>
+          </ul>
+          <a href="https://wa.me/595994654445?text=Hola%20Natanael%2C%20quiero%20unirme%20a%20la%20Membres%C3%ADa%20N90%20Club%20(59%20USD%2Fmes).%20Pago%3A%20Transferencia%2FWestern%20Union%2FCripto.%20Objetivo%3A%20____"
+             target="_blank" class="btn btn-primary mt-5 w-full">Unirme a la Membresía</a>
+        </article>
+
+        <!-- VIP 199 -->
+        <article class="glass rounded-3xl p-6">
+          <div class="text-sm uppercase tracking-widest text-white/60">Premium</div>
+          <h3 class="text-2xl font-bold mt-1">Mentoría VIP 1:1</h3>
+          <div class="mt-3 text-4xl font-extrabold">199 USD<span class="text-base font-semibold text-white/60"> / mes</span></div>
+          <ul class="mt-4 space-y-2 text-white/80 text-sm">
+            <li>Entrenamiento 100% personalizado</li>
+            <li>Plan nutricional adaptado a tu estilo de vida</li>
+            <li>Plan de suplementación detallado</li>
+            <li>Recetario premium + lista de compras semanal</li>
+            <li>Seguimiento privado y ajustes semanales</li>
+            <li>1 videollamada privada por semana</li>
+            <li><b>BONUS local:</b> entrenamiento presencial 1 vez/semana (si sos de mi ciudad)</li>
+          </ul>
+          <div class="text-white/70 text-sm mt-4">
+            <b>IMPORTANTE:</b> La mentoría VIP es limitada y exclusiva. Antes de aceptar, realizo una <b>videollamada de filtro</b> (Zoom o WhatsApp) para evaluar compromiso y objetivos.
+          </div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdke3_1zaZCj2CTHHajui1TLe9KclIjJD1HAMDawK3bN3NVAQ/viewform"
+             target="_blank" rel="noopener" class="btn btn-primary mt-5 w-full">Aplicar a cupo VIP</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MÉTODOS DE PAGO -->
+  <section id="pagos" class="py-16 border-t border-white/10">
+    <div class="max-w-4xl mx-auto text-center px-4">
+      <h2 class="text-3xl font-extrabold">Métodos de pago</h2>
+      <p class="text-white/70 mt-2">Elegí la opción que te quede mejor. Enviá el comprobante por WhatsApp y activamos tu plan ✅</p>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="glass rounded-3xl p-6">
+          <h3 class="font-bold text-xl">🏦 Transferencia bancaria</h3>
+          <p class="text-white/80 mt-2 text-sm">Datos bancarios por WhatsApp. Podés transferir en guaraníes o dólares.</p>
+        </div>
+        <div class="glass rounded-3xl p-6">
+          <h3 class="font-bold text-xl">💳 Western Union</h3>
+          <p class="text-white/80 mt-2 text-sm">Te envío los datos del receptor y el monto exacto según tu país.</p>
+        </div>
+        <div class="glass rounded-3xl p-6">
+          <h3 class="font-bold text-xl">🪙 Cripto</h3>
+          <p class="text-white/80 mt-2 text-sm">Acepto stablecoins. Te paso la wallet por WhatsApp.</p>
+        </div>
+      </div>
+      <a href="https://wa.me/595994654445?text=Hola%20Natanael%2C%20ya%20realic%C3%A9%20el%20pago%20y%20adjunto%20comprobante."
+         class="btn btn-primary mt-8 inline-flex">Enviar comprobante por WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- QUIÉN SOY -->
+  <section id="quien-soy" class="py-16 border-t border-white/10">
+    <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-3xl font-extrabold">Quién soy</h2>
+        <p class="text-white/80 mt-3">
+          Soy <b>Natanael</b>, creador del sistema <b>N90</b>. Antes estuve atrapado en <b>malos hábitos</b>:
+          me veía al espejo y no me gustaba lo que veía; sentía <b>baja energía</b> y que no tenía salida.
+        </p>
+        <p class="text-white/80 mt-3">
+          Decidí trabajar no solo mi físico, sino mi <b>desarrollo personal</b>: construí <b>disciplina diaria</b>,
+          cambié mi mentalidad, recuperé la <b>confianza</b> y encontré en mi <b>fe</b> el propósito para seguir.
+          Hoy ayudo a otros a lograr lo mismo: definir el cuerpo, ganar seguridad y crecer como personas.
+        </p>
+        <ul class="mt-5 text-white/90 text-sm space-y-2">
+          <li>✔ Entrenamientos prácticos y efectivos (casa o gym)</li>
+          <li>✔ Nutrición simple y adaptable a tu realidad</li>
+          <li>✔ Acompañamiento cercano y con propósito</li>
+          <li>✔ Herramientas de desarrollo personal para un cambio duradero</li>
+        </ul>
+        <div class="mt-6">
+          <a href="#ofertas" class="btn btn-primary">Quiero empezar</a>
+        </div>
+      </div>
+      <div class="glass rounded-3xl p-4 md:p-6 shadow-soft">
+        <img src="hero-n90.jpg" alt="Natanael entrenando" class="rounded-2xl w-full h-[360px] object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section id="testimonios" class="py-12 border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-extrabold">Resultados reales</h3>
+
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <!-- Cristian -->
+        <figure class="glass rounded-3xl overflow-hidden">
+          <img src="5d2b20c6-047b-48f0-8f99-2f6dce959057.jpeg" alt="Cristian - transformación con mentoría 1:1" class="w-full h-64 object-cover">
+          <figcaption class="p-6">
+            <div class="text-[10px] tracking-widest uppercase text-white/60">Mentoría VIP 1:1</div>
+            <h4 class="text-lg font-semibold text-white mt-1">Cristian</h4>
+            <p class="text-white/80 text-sm mt-2">
+              Venía de <b>malos hábitos</b> y <b>depresión</b>, sin energía ni dirección. Con la mentoría 1:1
+              trabajamos entrenamiento, alimentación y mentalidad. Hoy entrena con constancia, recuperó la
+              confianza y sostiene hábitos que lo mantienen fuerte y enfocado.
+            </p>
+          </figcaption>
+        </figure>
+
+        <!-- Matías -->
+        <figure class="glass rounded-3xl overflow-hidden">
+          <img src="IMG_0591.png" alt="Matías - de 115 kg a 85 kg" class="w-full h-64 object-cover">
+          <figcaption class="p-6">
+            <div class="text-[10px] tracking-widest uppercase text-white/60">Definición & hábitos</div>
+            <h4 class="text-lg font-semibold text-white mt-1">Matías</h4>
+            <p class="text-white/80 text-sm mt-2">
+              Pasó de <b>115 kg a 85 kg</b> (−30 kg) con un plan simple: fuerza + pasos diarios + nutrición
+              ajustada a su rutina. Ganó salud, movilidad y seguridad para sostener el cambio en el tiempo.
+            </p>
+          </figcaption>
+        </figure>
+
+        <!-- Julio -->
+        <figure class="glass rounded-3xl overflow-hidden">
+          <img src="IMG_0593.png" alt="Julio - dejó vicios y malos hábitos" class="w-full h-64 object-cover">
+          <figcaption class="p-6">
+            <div class="text-[10px] tracking-widest uppercase text-white/60">Recomposición corporal</div>
+            <h4 class="text-lg font-semibold text-white mt-1">Julio</h4>
+            <p class="text-white/80 text-sm mt-2">
+              Llegó con <b>vicios y malos hábitos</b>. Ordenamos sueño y comida, sumamos fuerza 3×/semana y
+              caminatas. Dejó excusas, bajó grasa y se ve más marcado. Lo más importante: <b>disciplina diaria</b>.
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-12 border-t border-white/10">
+    <div class="max-w-5xl mx-auto px-4">
+      <h3 class="text-3xl font-extrabold">Preguntas frecuentes</h3>
+      <div class="mt-6 grid md:grid-cols-2 gap-6 text-white/80">
+        <div class="glass p-5 rounded-2xl">
+          <h4 class="font-semibold">¿Puedo entrenar en casa?</h4>
+          <p class="text-sm mt-2">Sí. Todos los planes incluyen versión casa y versión gym, con y sin equipamiento.</p>
+        </div>
+        <div class="glass p-5 rounded-2xl">
+          <h4 class="font-semibold">¿Qué métodos de pago aceptás?</h4>
+          <p class="text-sm mt-2">Transferencia bancaria, Western Union y Cripto. Tras pagar, enviá el comprobante por WhatsApp.</p>
+        </div>
+        <div class="glass p-5 rounded-2xl">
+          <h4 class="font-semibold">¿Tiempo de respuesta?</h4>
+          <p class="text-sm mt-2">Dentro de 24 horas (días hábiles) por WhatsApp.</p>
+        </div>
+        <div class="glass p-5 rounded-2xl">
+          <h4 class="font-semibold">¿Entrenamiento presencial?</h4>
+          <p class="text-sm mt-2">Incluido como bonus en la Mentoría VIP: 1 sesión semanal si sos de mi ciudad.</p>
+        </div>
+        <div class="glass p-5 rounded-2xl">
+          <h4 class="font-semibold">¿Qué incluye la Membresía N90?</h4>
+          <p class="text-sm mt-2">Planes de entrenamiento y nutrición actualizados mensualmente, recetario, lista de compras y seguimiento general por WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="py-14 border-t border-white/10">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-extrabold">¿Listo para empezar?</h3>
+      <p class="text-white/70 mt-2">Elegí tu plan y arrancá hoy. Si tenés dudas, escribime por WhatsApp.</p>
+      <div class="mt-6 flex flex-wrap justify-center gap-3">
+        <a href="#ofertas" class="btn btn-primary">Ver planes</a>
+        <a href="https://wa.me/595994654445" target="_blank" rel="noopener" class="btn btn-outline">Hablar por WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/10 py-8 text-center text-white/60 text-sm">
+    <p>© <span id="y"></span> N90 by Natanael — Todos los derechos reservados.</p>
+    <p class="mt-2">Instagram: <a class="underline hover:opacity-80" href="https://instagram.com/natanaelamarilla_" target="_blank" rel="noopener">@natanaelamarilla_</a></p>
   </footer>
 
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
 </body>
 </html>
