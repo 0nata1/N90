@@ -1,119 +1,66 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>N90 • Asesorías Natanael – 12 Semanas</title>
-  <meta name="description" content="Definí tu cuerpo en 12 semanas sin dietas extremas ni vivir en el gimnasio. Aplicá a la consultoría gratuita de Natanael." />
-
-  <!-- Open Graph / Share preview -->
-  <meta property="og:title" content="N90 • Asesorías Natanael – 12 Semanas" />
-  <meta property="og:description" content="Definí tu cuerpo en 12 semanas. Cupos limitados este mes. Aplicá ahora." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://0nata1.github.io/N90/" />
-  <meta property="og:image" content="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>N90 - Programa de Transformación</title>
   <style>
-    :root{
-      --bg:#0b0b0b;
-      --fg:#eaeaea;
-      --muted:#b4b4b4;
-      --accent:#f7c948;
-      --accent-ink:#1a1a1a;
-      --card:#121212;
-      --ring:#ffffff33;
-      --maxw:1080px;
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+      text-align: center;
     }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{margin:0;background:var(--bg);color:var(--fg);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;}
-    a{color:inherit;text-decoration:none}
-    .container{max-width:var(--maxw);margin:0 auto;padding:20px}
-    .hero{position:relative;min-height:92vh;display:grid;place-items:center;overflow:hidden}
-    .hero-inner{position:relative;z-index:2;display:grid;gap:22px;text-align:center}
-    h1{font-size:clamp(34px,6vw,56px);line-height:1.1;margin:0;font-weight:800}
-    .sub{font-size:clamp(16px,2.6vw,20px);color:var(--fg);opacity:.9}
-    .bullets{display:grid;gap:8px;justify-content:center;margin-top:10px;text-align:left;max-width:400px;margin-left:auto;margin-right:auto}
-    .chip{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:8px;background:#ffffff0a;color:#fff;font-size:15px}
-    .cta{display:inline-block;margin-top:20px;background:var(--accent);color:var(--accent-ink);font-weight:800;border-radius:14px;padding:16px 28px;font-size:18px;box-shadow:0 10px 30px #f7c94840;transition:transform .08s ease, box-shadow .2s ease}
-    .cta:hover{transform:translateY(-1px);box-shadow:0 14px 34px #f7c94855}
-    .card{background:var(--card);border:1px solid var(--ring);border-radius:18px;padding:18px}
-    .grid{display:grid;gap:22px}
-    .video{position:relative;width:100%;aspect-ratio:16/9;border-radius:12px;overflow:hidden}
-    .video iframe{width:100%;height:100%;display:block}
-    .footer{padding:38px 20px;color:#9b9b9b;text-align:center;font-size:14px}
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    h1 span {
+      color: #facc15;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .btn {
+      background-color: #facc15;
+      color: #000;
+      padding: 15px 35px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background-color: #eab308;
+    }
+    .video-container {
+      margin: 20px auto;
+    }
   </style>
 </head>
 <body>
-  <header class="container" style="padding-top:18px;padding-bottom:6px;display:flex;align-items:center;justify-content:space-between;gap:14px">
-    <div style="display:flex;align-items:center;gap:10px">
-      <img src="https://avatars.githubusercontent.com/u/9919?s=60&v=4" alt="logo" width="32" height="32" style="border-radius:8px;opacity:.9" />
-      <strong>N90 by Natanael</strong>
-    </div>
-    <a class="cta" href="#aplicar">Aplicar ahora</a>
-  </header>
+  <div class="container">
+    <h1>Transformá tu cuerpo en <span>12 semanas</span></h1>
+    <p>Sin matarte en el gym. Sin dietas extremas. Con estrategia y acompañamiento real.</p>
 
-  <section class="hero">
-    <div class="container hero-inner">
-      <h1>¿Entrenás y no ves cambios?<br><span style="color:var(--accent)">Transformá tu cuerpo en 12 semanas</span></h1>
-      <p class="sub">Con el método <strong>N90</strong> vas a perder grasa, definir tu físico y recuperar tu confianza 👉 sin dietas extremas ni rutinas interminables.</p>
-      <div class="bullets">
-        <div class="chip">🔥 Cupos limitados este mes</div>
-        <div class="chip">💪 Resultados visibles en 12 semanas</div>
-        <div class="chip">🎯 Estrategia personalizada</div>
-        <div class="chip">🤝 Seguimiento 1:1 conmigo</div>
-      </div>
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/TU-ID-DE-VIDEO" 
+        title="Consultoría N90" frameborder="0" allowfullscreen></iframe>
+    </div>
 
-      <div class="card" style="margin-top:28px">
-        <h3 style="margin-bottom:12px">📹 Mirá este video antes de aplicar</h3>
-        <p class="sub" style="max-width:700px;margin:0 auto 16px auto;font-size:16px;color:#ccc">En menos de 2 minutos te explico cómo funciona el programa N90 y si realmente es para vos.</p>
-        <div class="video">
-          <iframe 
-            src="https://www.youtube.com/embed/VFm548NAvOw" 
-            title="N90 • Transformá tu cuerpo en 12 semanas" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            allowfullscreen>
-          </iframe>
-        </div>
-        <a class="cta" href="#aplicar" style="margin-top:20px">Quiero aplicar</a>
-      </div>
-    </div>
-  </section>
-  <section class="container" id="aplicar" style="padding:60px 20px">
-    <div class="card" style="padding:22px;display:grid;gap:12px;place-items:center;text-align:center">
-      <h2>Aplicá a la consultoría </h2>
-      <p class="sub" style="max-width:800px">Completá un breve cuestionario para saber si encajás con el programa N90. Si tu perfil aplica, al finalizar vas a poder agendar tu videollamada 1:1 conmigo.</p>
-      <a class="cta" href="https://your-typeform-link.example" target="_blank" rel="noopener">Ir al formulario (Typeform)</a>
-      <p class="sub" style="font-size:14px;color:#999">🔒 Tu información es confidencial. Tarda 1 minuto.</p>
-    </div>
-  </section>
+    <!-- Botón de Typeform -->
+    <button class="btn" data-tf-popup="FdogWVxy" data-tf-opacity="100" data-tf-size="100">
+      Aplicar ahora
+    </button>
 
-  <section class="container" style="padding:60px 20px">
-  <h2 style="text-align:center; margin-bottom:32px">Resultados reales con el método N90</h2>
-  
-  <div style="display:flex;justify-content:center">
-    <div style="max-width:720px;background:#111;border:1px solid #ffffff22;border-radius:14px;padding:20px;text-align:center">
-      <!-- Foto grupal de resultados -->
-      <img src="WhatsApp Image 2025-08-23 at 11.58.00 PM.jpeg" 
-           alt="Transformaciones N90" 
-           style="width:100%;border-radius:12px;margin-bottom:16px">
-      
-      <!-- Texto testimonial grupal -->
-      <p style="font-style:italic;font-size:16px;line-height:1.5">
-        “Estos son solo algunos de los resultados alcanzados con el programa <strong>N90</strong>.  
-        Personas reales que, en apenas 12 semanas, lograron bajar grasa, ganar músculo y recuperar la confianza en su cuerpo.  
-        Sin dietas extremas ni entrenar todos los días, con una estrategia clara y un acompañamiento 1:1.”
-      </p>
-      
-      <!-- Firma personal -->
-      <p style="font-weight:700;margin-top:12px">Natanael A. <span style="color:#aaa;font-weight:400">• Coach y creador del método N90</span></p>
-    </div>
+    <p style="margin-top:20px; font-size:0.9rem; color:#bbb;">Cupos limitados • Seguimiento 1:1</p>
   </div>
-</section>
-    
-  
+
+  <!-- Script de Typeform -->
+  <script src="https://embed.typeform.com/embed.js"></script>
+</body>
+</html>
